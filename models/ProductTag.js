@@ -21,11 +21,11 @@ ProductTag.init(
         key: "id",
       },
     },
-    // define a product_id column
-    product_id: {
+    // define a tag_id column
+    tag_id: {
       type: DataTypes.INTEGER,
       references: {
-        model: "Product",
+        model: "Tag",
         key: "id",
       },
     },
